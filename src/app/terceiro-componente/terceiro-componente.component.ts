@@ -9,4 +9,5 @@ export class TerceiroComponenteComponent {
   @Input() sobrenome!: string;
   @Input() membrosFamilia!: string[];
   
+  membroSelecionado = "";
 }
